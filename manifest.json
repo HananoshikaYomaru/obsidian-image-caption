@@ -1,9 +1,9 @@
 {
-	"id": "dv-generator",
-	"name": "Dataview generator",
+	"id": "image-caption",
+	"name": "Image Caption",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Generate markdown from dataview query and javascript",
+	"description": "Generate image caption",
 	"author": "Hananoshika Yomaru",
 	"authorUrl": "https://yomaru.dev",
 	"fundingUrl": "https://www.buymeacoffee.com/yomaru",

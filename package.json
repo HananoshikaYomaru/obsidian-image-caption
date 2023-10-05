@@ -1,13 +1,14 @@
 {
-	"name": "obsidian-dv-generator",
+	"name": "obsidian-image-caption",
 	"version": "1.0.0",
-	"description": "Generate markdown from dataview query and javascript",
+	"description": "Generate image captions for Obsidian",
 	"main": "main.js",
 	"scripts": {
 		"dev": "bun esbuild.config.mjs",
 		"build": "bun esbuild.config.mjs production",
 		"version": "bun version-bump.mjs && git add manifest.json versions.json",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"typecheck": "tsc --noEmit"
 	},
 	"keywords": [
 		"obsidian",
