@@ -12,6 +12,10 @@ Generate image caption easily. Completely markdown-based.
 
 then it will generate `<figure>` element on save.
 
+## How it works? 
+
+The plugin will recognise the syntax and then check if there is a figure element below it. If not, it will generate one. If yes, the figure element will be replaced by generated result. 
+
 ## Installation
 
 ### Obsidian marketplace
