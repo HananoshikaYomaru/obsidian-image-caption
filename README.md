@@ -4,6 +4,8 @@ Generate image caption easily. Completely markdown-based.
 
 ![](https://share.cleanshot.com/NTvJk3hg+)
 
+demo: https://www.youtube.com/watch?v=dee_OzcibLI
+
 ## Usage
 
 ```md
