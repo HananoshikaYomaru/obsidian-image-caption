@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-image-caption",
-	"version": "1.0.1",
-	"description": "Generate image captions for Obsidian",
+	"name": "obsidian-md-image-caption",
+	"version": "1.0.2",
+	"description": "Generate markdown based image captions for Obsidian",
 	"main": "main.js",
 	"scripts": {
 		"dev": "bun esbuild.config.mjs",

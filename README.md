@@ -1,4 +1,4 @@
-# Obsidian Image Caption
+# Obsidian Markdown Image Caption
 
 Generate image caption easily. Completely markdown-based.
 
