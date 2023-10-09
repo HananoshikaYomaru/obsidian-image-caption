@@ -3,8 +3,6 @@ import { getDataFromTextSync, writeFile } from "./utils/obsidian";
 import { extractImagesFromPattern } from "./extractImagesFromPattern";
 import { getNewTextFromResults } from "./getNewTextFromResults";
 
-// Remember to rename these classes and interfaces!
-
 export default class ImageCaptionPlugin extends Plugin {
 	private previousSaveCommand: (() => void) | undefined;
 
