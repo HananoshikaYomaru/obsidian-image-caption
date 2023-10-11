@@ -22,7 +22,9 @@ export const getNewTextFromResults = (data: Data, images: Image[]) => {
 						image.src
 				  }) %% 
 		<figure>
-			<a href="${image.src}" data-lightbox="${image.group ?? i}">
+			<a href="${image.src}" data-lightbox="${image.group ?? i}" data-title="${
+						image.caption
+				  }">
 			    <img src="${image.src}" alt="${image.alt}" title="${image.caption}"/>
 			</a>
 			<figcaption>${image.caption}</figcaption>
