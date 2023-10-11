@@ -1,7 +1,7 @@
 {
 	"id": "md-image-caption",
 	"name": "Markdown Image Caption",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minAppVersion": "0.15.0",
 	"description": "Generate image caption",
 	"author": "Hananoshika Yomaru",

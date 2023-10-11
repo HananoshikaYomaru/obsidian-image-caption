@@ -1,6 +1,6 @@
 # Obsidian Markdown Image Caption
 
-Generate image caption easily. Completely markdown-based.
+Generate image caption easily. Completely markdown-based. Compatible with
 
 ![](https://share.cleanshot.com/NTvJk3hg+)
 
@@ -9,14 +9,18 @@ demo: https://www.youtube.com/watch?v=dee_OzcibLI
 ## Usage
 
 ```md
-%% caption ![alt](src)%%
+%% caption ![alt](src) %%
+
+%% lightbox ![alt](src) %%
+
+%% lightbox-{group} ![alt](src) %%
 ```
 
-then it will generate `<figure>` element on save.
+then it will generate `<figure>` element with a `<figcaption>` element inside on save.
 
-## How it works? 
+## How it works?
 
-The plugin will recognise the syntax and then check if there is a figure element below it. If not, it will generate one. If yes, the figure element will be replaced by generated result. 
+The plugin will recognise the syntax and then check if there is a figure element below it. If not, it will generate one. If yes, the figure element will be replaced by generated result.
 
 ## Installation
 
