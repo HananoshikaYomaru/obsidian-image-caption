@@ -1,10 +1,13 @@
 # Obsidian Markdown Image Caption
 
-Generate image caption easily. Completely markdown-based. Compatible with
+Generate image caption easily. Completely markdown-based. Compatible with obsidian publish and any markdown editor.
 
 ![](https://share.cleanshot.com/NTvJk3hg+)
 
-demo: https://www.youtube.com/watch?v=dee_OzcibLI
+demo: <https://www.youtube.com/watch?v=dee_OzcibLI>
+
+> [!CAUTION]
+> This plugin only works with external images. I don't use local image so I have no intention to support. But I am open to PR.
 
 ## Usage
 
@@ -16,7 +19,10 @@ demo: https://www.youtube.com/watch?v=dee_OzcibLI
 %% lightbox-{group} ![alt](src) %%
 ```
 
-then it will generate `<figure>` element with a `<figcaption>` element inside on save.
+then it will generate `<figure>` element with a `<figcaption>` element inside on command `generate image caption on current file`.
+
+> [!TIP]
+> You will want to use this with custom save plugin to generate image caption on save.
 
 ## How it works?
 
@@ -26,7 +32,7 @@ The plugin will recognise the syntax and then check if there is a figure element
 
 ### Obsidian marketplace
 
-Waiting for approval:
+You can install it on community plugin store.
 
 ### Through BRAT
 
@@ -55,6 +61,6 @@ Waiting for approval:
 
 ## Support
 
-If you are enjoying this plugin then please support my work and enthusiasm by buying me a coffee on https://www.buymeacoffee.com/yomaru.
+If you are enjoying this plugin then please support my work and enthusiasm by buying me a coffee on <https://www.buymeacoffee.com/yomaru>.
 
 <a href="https://www.buymeacoffee.com/yomaru" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
