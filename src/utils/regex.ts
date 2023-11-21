@@ -36,10 +36,6 @@ export const urlRegex =
 export const anchorTagRegex = /<a[\s]+([^>]+)>((?:.(?!<\/a>))*.)<\/a>/g;
 export const wordRegex = /[\p{L}\p{N}\p{Pc}\p{M}\-'’`]+/gu;
 // regex from https://stackoverflow.com/a/26128757/8353749
-export const htmlEntitiesRegex = /&[^\s]+;$/im;
-
-export const smartDoubleQuoteRegex = /[“”„«»]/g;
-export const smartSingleQuoteRegex = /[‘’‚‹›]/g;
 
 export const templaterCommandRegex = /<%[^]*?%>/g;
 // checklist regex
